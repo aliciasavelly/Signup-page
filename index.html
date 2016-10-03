@@ -6,19 +6,20 @@
 	<title>AnalogSea Signup Page</title>
 </head>
 <body>
+	<img src="logo.png" class="logo" alt="AnalogSea logo">
 	<form class="signup-form" action="/signup/" method="post">
-		<h1>Sign up</h1>
+		<legend>Sign up</legend>
 		<fieldset name="signup">
-			<label for="email">Email</label>
-				<input type="email" placeholder="foo@bar.com" name="email" id="email" required>
-			<label for="password">Password</label>
-				<input type="text" placeholder="1234passw0rd" name="password" id="password" required>
+			<label for="user-email">Email</label>
+				<input type="email" placeholder="foo@bar.com" name="user-email" id="user-email" required>
+			<label for="user-password">Password</label>
+				<input type="password" placeholder="1234passw0rd" name="user-password" id="user-password" required>
 		</fieldset>
-		<button type="sign-up">Sign up</button>
-		<a href="/forgot-password/new">Forgot password?</a>
+		<button type="submit">Sign up</button>
+		<p><a href="/forgot-password/new">Forgot password?</a></p>
 	</form>
-	<!-- <section>
-		
-	</section> -->
+	<div class="footer">
+		<p>Already have an account? <a href="/login">Log in</a></p>
+	</div>
 </body>
 </html>

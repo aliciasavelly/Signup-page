@@ -1,6 +1,20 @@
-form {
-	width: 400px;
+body {
+	background: #298eea;
+	font-family: "Roboto", sans-serif;
+}
+
+.logo {
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.signup-form {
+	width: 400px;
+	/*display: block;*/
 	background-color: white;
 	border-radius: 3px;
 	margin-left: auto;
@@ -8,10 +22,46 @@ form {
 	/*float: none;*/
 }
 
-body {
-	background: #539fef;
-}
-
 fieldset {
 	border: none;
+}
+
+input, button {
+	width: 320px;
+	height: 55px;
+	border-width: 2px;
+	padding: 15px;
+}
+
+.signup-form legend {
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: lighter;
+	color: #565656;
+	font-size: 38px;
+	padding-top: 35px;
+	padding-bottom: 5px;
+	/*letter-spacing: 0;*/
+}
+
+* {
+	box-sizing: border-box;
+}
+
+label, a {
+	display: block;
+	padding: 20px;
+}
+
+button {
+	border-radius: 3px;
+	background-color: #15CD72;
+	color: white;
+	font-size: 30px;
+	border: none;
+	/*vertical-align: middle;*/
+}
+
+button:hover {
+	background-color: #12b764;
 }
