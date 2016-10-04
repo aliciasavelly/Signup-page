@@ -7,75 +7,68 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+header {
+	width: auto;
+	height: auto;
+}
+
 .logo {
 	height: 35px;
+	display: block;
+	margin: 60px auto 30px auto;
+}
+
+.signup-form, .signup-form legend {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
-	margin-top: 60px;
-	margin-bottom: 30px;
 }
 
 .signup-form {
 	width: 400px;
 	height: 470px;
-	/*display: block;*/
 	background-color: white;
 	border-radius: 3px;
-	margin-left: auto;
-	margin-right: auto;
-	/*float: none;*/
 }
 
 .signup-form legend {
-	margin-left: auto;
-	margin-right: auto;
 	font-weight: lighter;
 	color: #565656;
 	font-size: 35px;
-	padding-top: 35px;
-	padding-bottom: 10px;
-	/*letter-spacing: 0;*/
+	padding: 35px 0px 10px 0px;
 }
 
 fieldset {
 	border: none;
-	/*margin-left: 30px;*/
 	text-align: center;
+}
+
+label {
+	display: block;
+	text-align: left;
+	padding: 20px 0px 15px 25px;
 }
 
 input, button {
 	width: 320px;
 	height: 55px;
-	border-width: 2px;
 	border-radius: 3px;
-	border: 2px solid #e7e7e7;
-	background: #fcfcfc;
 	padding: 15px;
-	font-size: 17px;
 }
 
-label {
-	display: block;
-	padding-top: 20px;
-	padding-bottom: 15px;
-	text-align: left;
-	padding-left: 25px;
-	/*padding: 15px;*/
+input {
+	border: 2px solid #e7e7e7;
+	font-size: 17px;
+	background: #fcfcfc;
 }
 
 button {
-	background-color: #15CD72;
+	background: #15CD72;
 	color: white;
-	font-size: 30px;
 	border: none;
 	cursor: pointer;
 	margin-top: 20px;
-	/*margin-left: 30px;*/
 	font-size: 22px;
 	text-align: center;
-	/*margin-left: 15px;*/
-	/*vertical-align: middle;*/
 }
 
 button:hover {
@@ -88,10 +81,8 @@ button:hover {
 
 a {
 	color: #999;
-	/*text-align: center;*/
 	padding-bottom: 40px;
 	font-size: 15px;
-	/*display: block;*/
 }
 
 .signup-form a:hover {
