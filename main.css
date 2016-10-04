@@ -14,6 +14,7 @@ body {
 
 .signup-form {
 	width: 400px;
+	height: 470px;
 	/*display: block;*/
 	background-color: white;
 	border-radius: 3px;
@@ -24,13 +25,19 @@ body {
 
 fieldset {
 	border: none;
+	/*margin-left: 30px;*/
+	text-align: center;
 }
 
 input, button {
 	width: 320px;
 	height: 55px;
 	border-width: 2px;
+	border-radius: 3px;
+	border: 2px solid #e7e7e7;
+	background: #fcfcfc;
 	padding: 15px;
+	font-size: 17px;
 }
 
 .signup-form legend {
@@ -38,9 +45,9 @@ input, button {
 	margin-right: auto;
 	font-weight: lighter;
 	color: #565656;
-	font-size: 38px;
+	font-size: 35px;
 	padding-top: 35px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	/*letter-spacing: 0;*/
 }
 
@@ -48,20 +55,48 @@ input, button {
 	box-sizing: border-box;
 }
 
-label, a {
+label {
 	display: block;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: left;
+	padding-left: 25px;
+	/*padding: 15px;*/
+}
+
+a {
+	color: #999;
+	/*text-align: center;*/
+	padding-bottom: 40px;
+	font-size: 15px;
+	/*display: block;*/
 }
 
 button {
-	border-radius: 3px;
 	background-color: #15CD72;
 	color: white;
 	font-size: 30px;
 	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+	/*margin-left: 30px;*/
+	font-size: 22px;
+	text-align: center;
+	/*margin-left: 15px;*/
 	/*vertical-align: middle;*/
 }
 
 button:hover {
 	background-color: #12b764;
+	-webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.footer, .footer a {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 17px
 }
