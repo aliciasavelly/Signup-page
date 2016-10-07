@@ -8,19 +8,33 @@ body {
 }
 
 header {
-	width: auto;
+	width: 100%;
 	height: auto;
+	position: relative;
+	margin: 50px auto 30px;
 }
 
 .logo {
 	height: 35px;
+	width: 26%;
 	display: block;
-	margin: 60px auto 30px auto;
+	margin: 0px auto;
 }
 
 .signup-form, .signup-form legend {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*as an example of what I could do if I don't use legend but the*/
+/*instructions said to use legend*/
+.signup-form h1 {
+	font-weight: lighter;
+    color: #565656;
+    font-size: 35px;
+    padding: 35px 0px 10px 0px;
+    text-align: center;
+    margin: 0px;
 }
 
 .signup-form {
